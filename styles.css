@@ -1,8 +1,9 @@
 :root {
-    --SteelBlue: #4682B4;
+    --Khaki: #A99985;
     --White: #FFFFFF;
     --Black: #000000;
     --MediumSlateBlue: #7B68EE;
+    --Bone: #DAD2BC;
 }
 * {
     box-sizing: border-box;
@@ -15,16 +16,25 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--SteelBlue);
+    background-color: var(--Khaki);
 }
 .header_items {
     width: 100%;
     display: flex;
     place-content: center space-between;
+    align-items: center;
+}
+.logo {
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    color: var(--Black);
+    text-decoration: none;
+    margin: 0 0 0 10px;
 }
 .h_item {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 .header_item {
     margin-left: 30px;
