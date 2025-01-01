@@ -114,3 +114,23 @@ section {
     width: 84px;
     height: 120px;
 }
+.info_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info_container p {
+    font-size: 20px;
+}
+.pay_container {
+    background-color: var(--MediumSlateBlue);
+    width: 90%;
+    height: 120px;
+    text-align: center;
+    border-radius: 10px;
+}
+.payment_methods {
+    width: 110px;
+    height: 74px;
+}
